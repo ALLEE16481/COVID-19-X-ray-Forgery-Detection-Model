@@ -1,0 +1,46 @@
+
+Start
+|
+|-----> Load Covid-19 Dataset
+|            |
+|            |-----> Label the Dataset (Normal, Slicing, Copy Move)
+|            |
+|            |-----> Resize Images According to Model Architecture
+|            |
+|            |-----> Visualize Random Images with Labels
+|            |
+|            |-----> Shuffle Data
+|            |
+|            |-----> Split Data into Train and Test Sets
+|
+|-----> Build Forgery Detection CNN Model
+|            |
+|            |-----> Define Convolutional Layers
+|            |-----> Define Pooling Layers
+|            |-----> Define Fully Connected Layers
+|            |-----> Compile the Model (Specify Loss, Optimizer, Metrics)
+|
+|-----> Train the Forgery Detection Model
+|            |
+|            |-----> Feed Training Data
+|            |-----> Specify Number of Epochs, Batch Size
+|            |-----> Save Trained Model
+|
+|-----> Evaluate Model Performance
+|            |
+|            |-----> Feed Testing Data
+|            |-----> Calculate Accuracy, Confusion Matrix, etc.
+|
+|-----> Visualize Training History
+|            |
+|            |-----> Plot Training Accuracy and Loss over Epochs
+|            |-----> Plot Validation Accuracy and Loss over Epochs
+|
+|-----> Inference with a Sample Image
+|            |
+|            |-----> Load and Display a Sample Image
+|            |-----> Preprocess the Image
+|            |-----> Perform Inference using the Trained Model
+|            |-----> Display the Predicted Class
+|
+End
